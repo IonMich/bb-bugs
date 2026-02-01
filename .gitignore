@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Environments and tooling
+.venv/
+.uv-cache/
+.env
+.env.*
+!.env.example
+.opencode-data/
+
+# Node / frontend builds
+node_modules/
+dist/
+dist-ssr/
+
+# Data and artifacts
+data/
+*.sqlite
+*.sqlite3
+*.db
+/bench_results*
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
